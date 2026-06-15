@@ -15,14 +15,25 @@
 
     <p><strong> BSIT Student | Web & Mobile App Development</strong></p>
 
+    <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+            View My Projects
+        </a>
+
+        <a href="https://github.com/marklester-dev"
+           class="btn btn-outline-light"
+           target="_blank">
+       GitHub </a>
+    </div>
+
     <hr />
 
-    <h3>About Me</h3>
+    <h3 id="about">About Me</h3>
     <p>
-        Hi! I'm Mark Lester O. Loyosa, a BSIT student specializing in Web and Mobile App Development. I have experience building projects using C++, C#, Windows Forms, HTML, CSS, and ASP.NET Core. I am continuously improving my programming skills by creating projects and learning new technologies.
+        Hi! I'm Mark Lester O. Loyosa, a BSIT student specializing in Web and Mobile App Development. This portfolio showcases my projects, skills, and learning journey as I work toward becoming a professional software developer.
     </p>
 
-    <h3>Skills</h3>
+    <h3 id="skills">Skills</h3>
     
     <div class="skills-container">
         <span class="skill-badge">C++</span>
@@ -34,7 +45,17 @@
         <span class="skill-badge">Microsoft Visual Studio</span>
     </div>
 
-    <h3>Projects</h3>
+    <h3>Currently Learning</h3>
+    
+    <div class="skills-container">
+        <span class="skill-badge">📚 ASP.NET Core</span>
+        <span class="skill-badge">📚 HTML & CSS</span>
+        <span class="skill-badge">📚 Git & GitHub</span>
+        <span class="skill-badge">📚 Web Development</span>
+        <span class="skill-badge">📚 Mobile App development</span>
+    </div>
+
+    <h3 id="projects">Projects</h3>
     
     <div class="project-card">
         <h4>Portfolio Website</h4>
@@ -43,33 +64,58 @@
             My personal portfolio website built using ASP.NET Core Razor Pages. This project showcases my skills, background, and future projects.
         </p>
 
-        <p><strong>Status:</strong> Active Development</p>
+        <p>
+            <span class="tech-badge">ASP.NET Core</span>
+            <span class="tech-badge">HTML</span>
+            <span class="tech-badge">CSS</span>
+        </p>
+
+        <p class="status-active">Status: Active Development</p>
     </div>
 
     <div class="project-card">
         <h4>Console Calculator with History</h4>
 
+        <img src="~/images/calculator-console.png"
+             alt="Console Calculator Screenshot"
+             class="project-image" />
+
         <p>
-            A C++ console calculator that performs basic arithmetic operations and stores previous calculations using arrays. The program includes a menu-driven interface, calculation history, and error handling for division by zero.
+            A C++ console application that performs basic arithmetic operations and stores previous calculations using arrays. The program features a menu-driven interface, calculation history tracking, user input handling, and division-by-zero validation.
         </p>
 
-        <p><strong>Technology:</strong> C++</p>
-        <p><strong>Status:</strong> Completed</p>
+        <p>
+            <span class="tech-badge">C++</span>
+        </p>
+        <p class="status-completed">Status: Completed</p>
 
     </div>
 
     <div class="project-card">
         <h4>Grade Converter System (C# Windows Forms App)</h4>
 
+        <img src="~/images/grade-converter-1.png"
+             alt="Grade Converter Main Screeen"
+             class="project-image" />
+
+             <img src="~/images/grade-converter-2.png"
+                  alt="Grade Converter Result Screen"
+                  class="project-image" />
+
         <p>
             A Windows Forms Application developed in C# that converts numeric grades into their cocrresponding number equivalent and letter grade. This project demonstrates input validation, conditional logic, and GUI developemnt.
         </p>
 
-        <p><strong>Technology:</strong> C#, Windows Forms</p>
-        <p><strong>Status:</strong> Completed</p>
+        <p>
+            <span class="tech-badge">C#</span>
+            <span class="tech-badge">Windows Forms</span>
+        </p>
+
+        <p class="status-completed">Status: Completed</p>
+
     </div>
 
-    <h3>Goal</h3>
+    <h3 id="goal">Goal</h3>
 
     <div class="project-card">
         <p>
@@ -77,11 +123,13 @@
         </p>
     </div>
         
-    <h3>Contact</h3>
+    <h3 id="contact">Contact</h3>
     <p>Email: loyosamarklester@gmail.com</p>
     <p>
         GitHub:
-        <a href="https://github.com/marklester-dev" target="_blank">
-            github.com/marklester-dev</a>
+        <a href="https://github.com/marklester-dev" target="_blank"
+        class="github-btn">
+            View My GitHub
+            </a>
     </p>
 </div>
