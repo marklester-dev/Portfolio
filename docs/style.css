@@ -48,3 +48,17 @@ button {
     border-radius: 8px;
     font-size: 1rem;
 }
+
+button {
+    background-color: #4dabf7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #339af0;
+}
