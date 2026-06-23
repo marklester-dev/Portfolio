@@ -18,3 +18,23 @@ h2 {
 p {
     line-height: 1.8;
 }
+
+h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #4dabf7;
+    margin-top: 40px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
