@@ -4,3 +4,17 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
+
+h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #4dabf7;
+    margin-top: 40px;
+}
+
+p {
+    line-height: 1.8;
+}
